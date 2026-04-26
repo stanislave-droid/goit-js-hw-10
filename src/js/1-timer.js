@@ -54,7 +54,7 @@ startBtn.addEventListener('click', handleStart);
 
 function handleStart(event) {
   event.target.disabled = true;
-  dateInput.nextElementSibling.disabled = true;
+  dateInput.disabled = true;
 
   intervalId = setInterval(() => {
     const currentDate = Date.now();
