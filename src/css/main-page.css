@@ -1,0 +1,17 @@
+.task-links-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 24px;
+  height: 60vh;
+}
+
+.task-links {
+  font-size: 42px;
+  transition: color 0.5s ease-in-out;
+}
+
+.task-links:hover {
+  color: aquamarine;
+}
