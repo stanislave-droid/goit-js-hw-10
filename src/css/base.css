@@ -1,9 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
+  font-family: 'Montserrat', sans-serif;
   display: flex;
   flex-direction: column;
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+button {
+  font-family: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
 }
 
 main {
