@@ -1,4 +1,4 @@
-#datetime-picker + input {
+#datetime-picker {
   border: 1px solid #808080;
   border-radius: 8px;
   width: 272px;
@@ -13,17 +13,17 @@
   transition: border 0.3s ease-in-out;
 }
 
-#datetime-picker + input:hover,
-#datetime-picker + input:focus {
+#datetime-picker,
+#datetime-picker {
   outline: none;
   border: 1px solid #000;
 }
 
-#datetime-picker + input:active {
+#datetime-picker {
   border: 1px solid #4e75ff;
 }
 
-#datetime-picker + input:disabled {
+#datetime-picker:disabled {
   border: 1px solid #808080;
 }
 
