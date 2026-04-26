@@ -62,7 +62,7 @@ function handleStart(event) {
 
     if (deltaTime <= 0) {
       clearInterval(intervalId);
-      dateInput.nextElementSibling.disabled = false;
+      dateInput.disabled = false;
       return;
     }
 
