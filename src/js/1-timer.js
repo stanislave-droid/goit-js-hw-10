@@ -35,7 +35,7 @@ const options = {
         backgroundColor: 'red',
         titleColor: 'white',
         messageColor: 'white',
-        iconUrl: '../img/error-timer-icon.svg',
+        iconUrl: '/img/error-timer-icon.svg',
         iconColor: 'white',
         position: 'topRight',
         message: 'Please choose a date in the future',
