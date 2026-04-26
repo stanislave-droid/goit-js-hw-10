@@ -27,7 +27,7 @@ function handleSubmit(event) {
         titleColor: 'white',
         message: `✅ Fulfilled promise in ${delay}ms`,
         messageColor: 'white',
-        iconUrl: '/img/snackbar-ok-icon.svg',
+        iconUrl: '../img/snackbar-ok-icon.svg',
         backgroundColor: 'green',
       });
     })
@@ -37,7 +37,7 @@ function handleSubmit(event) {
         titleColor: 'white',
         message: `❌ Rejected promise in ${delay}ms`,
         messageColor: 'white',
-        iconUrl: '/img/snackbar-error-icon.svg',
+        iconUrl: '../img/snackbar-error-icon.svg',
         backgroundColor: 'red',
       });
     });
